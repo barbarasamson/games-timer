@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ca.lifehypnosis.barbara.gamestimer.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentStart="true">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp">
+
+            <Button
+                android:layout_width="184dp"
+                android:layout_height="100dp"
+                android:id="@+id/time1"
+                android:background="#29b6f6"
+                android:clickable="true"
+                android:text="Registration, socializing, refreshments"
+                android:longClickable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:id="@+id/time2"
+                android:background="#304ffe"
+                android:clickable="true"
+                android:text="Welcome and context"
+                android:longClickable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="#ffffff" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:id="@+id/time3"
+                android:background="#00c853"
+                android:clickable="true"
+                android:text="What are Authentic Relating Games?"
+                android:longClickable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="#ffffff" />
+
+
+            <Button
+                android:layout_width="236dp"
+                android:layout_height="50dp"
+                android:id="@+id/time4"
+                android:background="#6200ea"
+                android:clickable="true"
+                android:text="Agreements"
+                android:longClickable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:id="@+id/time5"
+                android:background="#ffc400"
+                android:clickable="true"
+                android:text="Theme: Expansion"
+                android:longClickable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="#ffffff"
+                android:layout_gravity="top" />
+
+            <Button
+                android:layout_width="184dp"
+                android:layout_height="100dp"
+                android:id="@+id/time6"
+                android:background="#00e676"
+                android:clickable="true"
+                android:text="Sentence Stems"
+                android:longClickable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/scrollView"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/time7"
+                android:background="#f57c00"
+                android:clickable="true"
+                android:text="Guided Presence"
+                android:longClickable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/scrollView"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="135dp"
+                android:layout_height="300dp"
+                android:id="@+id/time8"
+                android:background="#00b0ff"
+                android:clickable="true"
+                android:text="Clock Game"
+                android:longClickable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/scrollView"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/time9"
+                android:background="#ffd600"
+                android:clickable="true"
+                android:text="Break"
+                android:longClickable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/scrollView"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="22dp"
+            android:layout_height="match_parent"
+            android:id="@+id/progressBar"
+            android:layout_gravity="right" />
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
