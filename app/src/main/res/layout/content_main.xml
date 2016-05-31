@@ -16,7 +16,10 @@
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="1800dp">
-
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollFrame">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -34,9 +37,8 @@
                 android:clickable="true"
                 android:text="Registration, socializing, refreshments"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff"/>
 
             <Button
@@ -48,9 +50,8 @@
                 android:clickable="true"
                 android:text="Welcome and context"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff" />
 
 
@@ -63,9 +64,8 @@
                 android:clickable="true"
                 android:text="What are Authentic Relating Games?"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff" />
 
 
@@ -78,9 +78,8 @@
                 android:clickable="true"
                 android:text="Agreements"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff" />
 
             <Button
@@ -92,9 +91,8 @@
                 android:clickable="true"
                 android:text="Theme: Expansion"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff"/>
 
             <Button
@@ -107,9 +105,8 @@
                 android:clickable="true"
                 android:text="Sentence Stems"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
 
@@ -122,9 +119,8 @@
                 android:clickable="true"
                 android:text="Guided Presence"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
 
@@ -138,9 +134,8 @@
                 android:clickable="true"
                 android:text="Clock Game"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
 
@@ -153,9 +148,8 @@
                 android:clickable="true"
                 android:text="Break"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
             <Button
@@ -167,9 +161,8 @@
                 android:clickable="true"
                 android:text="Rock Paper Scissors"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
             <Button
@@ -181,9 +174,8 @@
                 android:clickable="true"
                 android:text="Already Succeeded"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
             <Button
@@ -195,9 +187,8 @@
                 android:clickable="true"
                 android:text="Boundary Game"
                 android:longClickable="false"
-                android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:gravity="center_horizontal"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
             <Button
@@ -211,11 +202,10 @@
                 android:longClickable="false"
                 android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
             <Button
-                android:layout_width="2000dp"
+                android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:minHeight="0dp"
                 android:id="@+id/time14"
@@ -225,7 +215,6 @@
                 android:longClickable="false"
                 android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
             <Button
@@ -238,22 +227,33 @@
                 android:longClickable="false"
                 android:gravity="center_horizontal"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:minHeight="0dp"
+                android:id="@+id/time16"
+                android:background="#29b6f6"
+                android:clickable="true"
+                android:text="Get out the door"
+                android:longClickable="false"
+                android:gravity="center_horizontal"
+                android:paddingStart="5dp"
                 android:textColor="#ffffff"
                 android:layout_centerHorizontal="true" />
 
         </LinearLayout>
-</ScrollView>
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_alignParentStart="true">
+
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:id="@+id/timerBar"
         android:background="#000000"
-        android:visibility="visible"
+        android:visibility="invisible"
         />
-</FrameLayout>
+    </FrameLayout>
+</ScrollView>
+
+
 </RelativeLayout>
