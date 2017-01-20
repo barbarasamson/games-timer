@@ -1,0 +1,31 @@
+{
+  "Description": "This is the first test set of games",
+  "Games":[
+      {
+        "Title": "First Game",
+        "DurationInMinutes" : 3,
+        "MoreInSeconds": 0,
+        "LessInSeconds": 0,
+        "Description":["This is the first game."],
+        "Buttons":[
+          {
+            "Title": "30Sec",
+            "TimeInSeconds": 30
+          }
+        ]
+      },
+    {
+      "Title": "Second Game",
+      "DurationInMinutes" : 10,
+      "MoreInSeconds": 0,
+      "LessInSeconds": 0,
+      "Description":["This is the second game."],
+      "TimerButtons":[
+        {
+          "Title": "30Sec",
+          "TimeInSeconds": 30
+        }
+      ]
+    }
+]
+}
